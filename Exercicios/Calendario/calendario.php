@@ -164,13 +164,15 @@
             }   
             $dia++;
         }
+        if (count($semana) != 0)
+        {
+            for ($i = count($semana); $i < 7; $i++)
+            {
+                array_push($semana, null);
+            }
+        }
         $calendario .= linha($semana, $nummes, $anoselecionado);
         return $calendario;
-
-    }
-    function submitForm()
-    {
-
     }
 ?>
 
