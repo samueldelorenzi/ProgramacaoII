@@ -107,7 +107,7 @@
         {
             if(array_key_exists($i, $semana))
             {
-                if (date("$anoselecionado-$nummes-$semana[$i]") == date("Y-n-d"))
+                if (date("$anoselecionado-$nummes-$semana[$i]") == date("Y-n-j"))
                 {
                     $hoje = "<td class='hoje'>$semana[$i]</td>";
                     // caso seja hoje e domingo
