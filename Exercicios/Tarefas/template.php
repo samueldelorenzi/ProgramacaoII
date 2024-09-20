@@ -14,25 +14,29 @@
                 <legend>Nova tarefa</legend>
                 <label>
                     Nome:
-                    <input type="text" name="nome">
+                    <input type="text" name="nome" placeholder="Digite o nome da tarefa">
                 </label>
                 <br>
                 <br>
                 <label>
                     Descrição:
-                    <input type="text" name="descricao">
+                    <input type="text" name="descricao" placeholder="Digite a descrição da tarefa">
                 </label>
                 <br>
                 <br>
                 <label>
                     Prazo:
-                    <input type="date" name="prazo">
+                    <input type="date" name="prazo" value="<?php echo date('Y-m-d'); ?>" >
                 </label>
                 <br>
                 <br>
                 <label>
                     Prioridade:
-                    <input type="number" min="1" max="3" name="prioridade" value="1">
+                    <select type="select" name="prioridade">
+                        <option value="Baixa">Baixa</option>
+                        <option value="Média">Média</option>
+                        <option value="Alta">Alta</option>
+                    </select>
                 </label>
                 <br>
                 <br>
