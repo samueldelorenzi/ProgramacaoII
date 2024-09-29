@@ -25,6 +25,11 @@ h1 {
     font-size: 60px;
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
 }
+h3 {
+    color: #fff;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
 
 .container {
     background-color: #ffffff;
@@ -46,6 +51,7 @@ label {
 input[type="text"],
 input[type="date"],
 input[type="time"],
+input[type="password"],
 select {
     width: 100%;
     padding: 10px;
@@ -85,4 +91,12 @@ button {
 
 button:hover {
     background-color: #613a29;
+}
+
+#link {
+    color: #331f15; 
+    padding: 10px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    display: block;
 }

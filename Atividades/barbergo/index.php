@@ -1,4 +1,4 @@
 <?php
 
-require "views/form_agendamento.php";
+require "views/form_cadastro.php";
 
