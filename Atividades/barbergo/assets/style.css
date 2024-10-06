@@ -52,6 +52,7 @@ input[type="text"],
 input[type="date"],
 input[type="time"],
 input[type="password"],
+input[type="email"],
 select {
     width: 100%;
     padding: 10px;
@@ -74,12 +75,13 @@ select {
 input[type="text"]:focus,
 input[type="date"]:focus,
 input[type="time"]:focus,
+input[type="email"]:focus,
 select:focus {
     outline: none;
-    border-color: #0066cc;
+    border-color: #331f15;
 }
 
-button {
+input[type="submit"] {
     background-color: #331f15;
     color: #fff;
     padding: 10px 20px;
@@ -89,7 +91,7 @@ button {
     font-size: 14px;
 }
 
-button:hover {
+input[type="submit"]:hover {
     background-color: #613a29;
 }
 
@@ -99,4 +101,8 @@ button:hover {
     padding-bottom: 20px;
     text-decoration: underline;
     display: block;
+}
+
+fieldset {
+    border: none;
 }

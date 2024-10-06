@@ -7,14 +7,7 @@ create table cliente (
     nome varchar(256),
     sobrenome varchar(256),
     email varchar(256),
-    endereco varchar(256)
-);
-
-create table login (
-	id int not null auto_increment primary key,
-    id_cliente int not null,
-    email varchar(300) not null,
-    pass varchar(16) not null
+    senha varchar(256)
 );
 
 create table agendamento (
@@ -36,3 +29,5 @@ insert into servico (nome, descricao, preco) values
 ('Corte', 'Corte de cabelo', 30.00),
 ('Barba', 'Aparar e modelar barba', 35.00),
 ('Corte e Barba', 'Corte de cabelo e barba', 60.00);
+
+select * from cliente
