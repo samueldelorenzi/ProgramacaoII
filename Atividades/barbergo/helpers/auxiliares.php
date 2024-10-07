@@ -72,7 +72,7 @@ function verificar_login($conexao, $login)
     }
 }
 
-function get_cliente_byemail($conexao, $email=$_POST['email']) {
+/*function get_cliente_byemail($conexao, $email=$_POST['email']) {
     $sql = "SELECT * FROM cliente WHERE email = ?";
     $stmt = mysqli_prepare($conexao, $sql);
     mysqli_stmt_bind_param($stmt, "s", $email);
@@ -88,7 +88,7 @@ function get_cliente_byemail($conexao, $email=$_POST['email']) {
         'email' => $email,
         'senha' => $senha
     ];
-}
+}*/
 
 function adicionar_agendamento($conexao, $agendamento, $id_cliente)
 {
