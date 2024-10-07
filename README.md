@@ -18,3 +18,6 @@ Este repositório possui todas as atividades e trabalhos executados durante a ma
 - [x] Funções
 - [x] Datas
 - [x] Manipulação de strings
+- [x] Session
+- [x] $_POST
+- [x] Banco de dados
