@@ -1,7 +1,3 @@
-<?php
-    session_start(); // Inicia a sessão
-    session_destroy(); // Destroi a sessão
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
